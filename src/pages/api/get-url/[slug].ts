@@ -16,6 +16,7 @@ const Handler = async (req: NextApiRequest, res: NextApiResponse) => {
         res.status(404).json({ message: "Not found" });
         return;
     }
-    res.redirect(data.url);
+    res.setHeader('Cache-Control', 's-maxage=31536000, stale-while-revalidate');
+    res.status(200).json(data);
 }
 export default Handler;
