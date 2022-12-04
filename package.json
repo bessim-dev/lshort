@@ -15,16 +15,22 @@
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
     "autoprefixer": "^10.4.13",
+    "chrome-aws-lambda": "^10.1.0",
+    "cloudinary": "^1.32.0",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "next": "13.0.6",
     "postcss": "^8.4.19",
+    "puppeteer": "^19.3.0",
+    "puppeteer-core": "^19.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "streamifier": "^0.1.1",
     "tailwindcss": "^3.2.4",
     "typescript": "4.9.3"
   },
   "devDependencies": {
+    "@types/streamifier": "^0.1.0",
     "prisma": "^4.7.1"
   }
 }
